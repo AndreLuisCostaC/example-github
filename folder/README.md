@@ -1,5 +1,7 @@
 # Example Git Repository
 # https://git-school.github.io/visualizing-git/
+# 
+https://learngitbranching.js.org/
 
 We are learning how to make commits
 
@@ -15,3 +17,4 @@ We are learning how to make commits
 
 6 git branch to list branchs
 6.1 git branch <name> to create a new branch
+6.2 git branch -d <name>
