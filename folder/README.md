@@ -9,3 +9,4 @@ We are learning how to make commits
 3. git commit -m "adding ..." --creates a commit (use messages in the present tense)
 
 4. git log -- Show all git events
+5. git checkout --travel to a specific commit
