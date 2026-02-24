@@ -32,3 +32,18 @@ git push origin feature/docs => push a specific branch to the remote
 git branch -a => list all branchs, the locals and the remotes
 
 git remote -v => list all remote branchs associated with the repository
+
+git push => push the commits from local to remote
+git pull => bring the changes in remote to local
+
+-- change the branch from main to feature/docs
+git checkout feature/docs => change the branch
+
+git merge main => update the feature/docs with the local main
+git pull origin main => update the feature/docs with the remote main
+
+another way to get the same result
+git fetch origin main => fetch the content but not update the branch
+git merge main => merge into the branch the updates that was fetched
+
+it is equivalent to git pull origin main
