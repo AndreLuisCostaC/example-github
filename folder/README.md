@@ -50,3 +50,26 @@ it is equivalent to git pull origin main
 
 Associate a branch in local with the branch in remote (other than main)
 git push --set-upstream origin feature/docs
+
+
+Git UI allow creating repositories, branches, commits, tag, etc..
+# created the repo locally
+from local repository ->(to) => "remote" (git add remote <name>(origin) <URL>
+
+# created the repo remotelly
+git clone <URL>
+
+#Git workflow
+git checkout <branch>
+git checkout -b <new branch>
+git add, git commit -m "..." (several times)
+git push origin <new branch>
+
+git push --set-upstream origin <new branch>
+git pull [origin <new branch>]
+
+# create a new branch remotelly
+using the GitHub UI to create <branch>
+git fetch --all
+git checkout <branch>
+git pull
