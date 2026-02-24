@@ -18,3 +18,17 @@ We are learning how to make commits
 6 git branch to list branchs
 6.1 git branch <name> to create a new branch
 6.2 git branch -d <name>
+
+# Github (Remote)
+
+#The three below commands to connect a local repository to a remote repository
+1st - git remote add origin https://github.com/AndreLuisCostaC/example-github.git
+2nd - git branch -M main
+3rd - git push -u origin main
+
+
+git push origin feature/docs => push a specific branch to the remote
+
+git branch -a => list all branchs, the locals and the remotes
+
+git remote -v => list all remote branchs associated with the repository
