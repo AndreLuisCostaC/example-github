@@ -1,6 +1,7 @@
 # Example Git Repository
 # https://git-school.github.io/visualizing-git/
 # 
+# This guide should be organized in an workflow maner
 https://learngitbranching.js.org/
 
 We are learning how to make commits
@@ -54,7 +55,7 @@ git push --set-upstream origin feature/docs
 
 Git UI allow creating repositories, branches, commits, tag, etc..
 # created the repo locally
-from local repository ->(to) => "remote" (git add remote <name>(origin) <URL>
+from local repository ->(to) => "remote" (git add remote <name>(origin) <URL>)
 
 # created the repo remotelly
 git clone <URL>
