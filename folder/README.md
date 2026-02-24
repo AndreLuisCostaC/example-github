@@ -47,3 +47,6 @@ git fetch origin main => fetch the content but not update the branch
 git merge main => merge into the branch the updates that was fetched
 
 it is equivalent to git pull origin main
+
+Associate a branch in local with the branch in remote (other than main)
+git push --set-upstream origin feature/docs
